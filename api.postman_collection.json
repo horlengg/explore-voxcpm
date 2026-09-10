@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "c8ac10f9-6841-481b-8083-69ef423bbdad",
+		"name": "VoxCPM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "generate transaction voice",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"language\": \"km-kh\",\n  \"currency\": \"USD\",\n  \"voice\": \"piseth\",\n  \"amount\": \"10.89\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/openai/api/v1/speech/generate",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"openai",
+						"api",
+						"v1",
+						"speech",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generate voice",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"language\": \"km-kh\",\n  \"currency\": \"KHR\",\n  \"voice\": \"sreymom\",\n  \"content\": \"ការផ្តល់ជូនពិសេសសម្រាប់ប្អូនៗដែលទើបជាប់បាក់ឌុប ឆ្នាំសិក្សា២០២៦នេះ!\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/openai/api/v1/speech/speak",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"openai",
+						"api",
+						"v1",
+						"speech",
+						"speak"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check health",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/health",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

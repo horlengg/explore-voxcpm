@@ -1,4 +1,4 @@
-# Explore Text To Speech
+# VoxCPM Text To Speech
 
 ```base
 uvicorn app:app --reload 
@@ -12,5 +12,3 @@ pip freeze > requirements.txt
 ```base
 pip install -r requirements.txt
 ```
-
-<!-- curl -I  https://trx-voice-alert-tts.vercel.app/apple-app-site-association -->
