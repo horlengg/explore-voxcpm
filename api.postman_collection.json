@@ -53,7 +53,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"language\": \"km-kh\",\n  \"currency\": \"KHR\",\n  \"voice\": \"sreymom\",\n  \"content\": \"ការផ្តល់ជូនពិសេសសម្រាប់ប្អូនៗដែលទើបជាប់បាក់ឌុប ឆ្នាំសិក្សា២០២៦នេះ!\"\n}",
+					"raw": "{\n  \"language\": \"km-kh\",\n  \"currency\": \"KHR\",\n  \"voice\": \"sreymom\",\n  \"content\": \"ទទួលបាន ការបញ្ចុះតម្លៃរហូតដល់ 15% លើមុខម្ហូបនៅភោជនីយដ្ឋានដៃគូជាច្រើន ដោយគ្រាន់តែទូទាត់តាមរយៈកាត Visa របស់ធនាគារ ជីប ម៉ុង។\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"

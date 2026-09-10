@@ -3,10 +3,8 @@ import traceback
 from fastapi import APIRouter, BackgroundTasks, HTTPException, Request, Response
 from utils.transaction_amount import validate_trx_request, build_tts_text
 
-from dotenv import load_dotenv
 from speech_request import SpeechRequest,SpeechTextRequest
 
-load_dotenv()
 
 router = APIRouter(prefix="/speech", tags=["speech"])
 
