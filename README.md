@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ## Running the App
 
-Assuming your FastAPI entrypoint is `main.py` with an app instance named `app`:
+Assuming your FastAPI entrypoint is `app.py` with an app instance named `app`:
 
 ```bash
 uvicorn app:app --reload
