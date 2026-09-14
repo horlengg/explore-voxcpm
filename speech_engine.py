@@ -12,7 +12,7 @@ from utils.transaction_amount import build_tts_text
 from speech_request import SpeechRequest
 
 
-class VoxCPMTTS:
+class SpeechEngine :
 
     model: Optional[VoxCPM] = None
     OUTPUT_DIR = Path(tempfile.gettempdir()) / "voxcpm_outputs"

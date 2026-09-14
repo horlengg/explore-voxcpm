@@ -13,8 +13,14 @@ class SpeechCurrency(Enum):
 
     def get_label(self,language:SpeechLanguage) -> str :
         CURRENCY_DISPLAY = {
-            SpeechLanguage.EN: {SpeechCurrency.USD: "dollar", SpeechCurrency.KHR: "riel"},
-            SpeechLanguage.KM: {SpeechCurrency.USD: "ដុល្លា", SpeechCurrency.KHR: "រៀល"},
+            SpeechLanguage.EN: {
+                SpeechCurrency.USD: "dollar", 
+                SpeechCurrency.KHR: "riel"
+            },
+            SpeechLanguage.KM: {
+                SpeechCurrency.USD: "ដុល្លា", 
+                SpeechCurrency.KHR: "រៀល"
+            },
         }
         return CURRENCY_DISPLAY[language][self]
 
