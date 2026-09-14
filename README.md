@@ -118,7 +118,6 @@ Generates spoken audio from arbitrary free-form text content.
 | Field      | Type   | Description                                                      |
 |------------|--------|----------------------------------------------------------        |
 | `language` | string | Language/locale code for speech synthesis (e.g. `km-kh`)         |
-| `currency` | string | Currency code for the amount (e.g. `USD`, `KHR`)                 |
 | `voice`    | string | Voice preset/name to use for synthesis (e.g. `piseth`,`sreymom`) |
 | `amount`   | string | Transaction amount to be spoken aloud                            |
 
